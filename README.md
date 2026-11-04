@@ -39,7 +39,7 @@ Some windows only unlock "Next" after she finishes them (🔒).
    She taps a reply, you answer, and the big "Happy Birthday" card pops in with confetti
 3. **a little letter 💌** 🔒: tap the envelope, the letter types itself out (unlocks when finished or "Show it all")
 4. **our future memories 📸**: the two date #2 photos (dinner, then gelato) taped up like polaroids, plus a note that many more are coming
-5. **reasons i love you 💝**: 8 sealed secret cards that flip open (all unlocked = confetti)
+5. **reasons i love you 💝** 🔒: 8 sealed secret cards that flip open (opening all 8 = confetti and unlocks "Next")
 6. **make a wish 🕯️** 🔒: tap the candles to blow them out
 7. **one last question 🥺** 🔒: "Do you love me?" The No button runs away, the Yes button keeps growing
 8. **forever & always 💗**: final message, heart rain, and a "Replay from the start" button

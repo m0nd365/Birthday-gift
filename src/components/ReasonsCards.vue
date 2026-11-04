@@ -4,6 +4,8 @@ import { config } from '../config'
 import { celebrate } from '../composables/confetti'
 import SectionTitle from './SectionTitle.vue'
 
+const emit = defineEmits<{ done: [] }>()
+
 const reasons = config.reasons
 const flipped = ref<Set<number>>(new Set())
 const found = computed(() => flipped.value.size)
@@ -47,7 +49,11 @@ function flip(i: number) {
     next.delete(i)
   } else {
     next.add(i)
-    if (next.size === reasons.length) setTimeout(celebrate, 300)
+    if (next.size === reasons.length) {
+      setTimeout(celebrate, 300)
+      // all secrets opened: unlock the next window
+      emit('done')
+    }
   }
   flipped.value = next
 }

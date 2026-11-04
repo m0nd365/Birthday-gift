@@ -14,6 +14,7 @@ import LoveQuestion from './components/LoveQuestion.vue'
 import FinalStep from './components/FinalStep.vue'
 import Sticker from './components/Sticker.vue'
 import type { StickerName } from './stickers'
+import { config } from './config'
 
 interface Step {
   title: string
@@ -44,7 +45,13 @@ const steps: Step[] = [
     lock: 'read the whole letter first',
   },
   { title: 'our future memories', sticker: 'camera', component: FutureMemories, next: { label: 'Why I love you', sticker: 'heart-ribbon' } },
-  { title: 'reasons i love you', sticker: 'heart-ribbon', component: ReasonsCards, next: { label: 'Time for cake', sticker: 'cake' } },
+  {
+    title: 'reasons i love you',
+    sticker: 'heart-ribbon',
+    component: ReasonsCards,
+    next: { label: 'Time for cake', sticker: 'cake' },
+    lock: `open all ${config.reasons.length} cards first`,
+  },
   {
     title: 'make a wish',
     sticker: 'candle',
