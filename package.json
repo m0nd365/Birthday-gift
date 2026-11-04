@@ -1,0 +1,25 @@
+{
+  "name": "birthday-gift",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "lottie-web": "^5.13.0",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/canvas-confetti": "^1.9.0",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9",
+    "vite": "^8.3.4",
+    "vue-tsc": "^3.3.13"
+  }
+}
